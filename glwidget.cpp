@@ -24,6 +24,10 @@ void GLWidget::initializeGL()
     glEnable(GL_LIGHT0);
     glEnable(GL_LIGHTING);
     glEnable(GL_COLOR_MATERIAL);
+    for(int i=0;i<10;i++)
+    {
+
+    }
 }
 
 void GLWidget::paintGL()
